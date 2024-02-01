@@ -1,0 +1,21 @@
+.mainEffect{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
+    margin: 10rem 0 4rem;
+}
+
+.useEffectHeading{
+    font-size: 40px;
+}
+
+.text{
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.screenSize{
+    color: rgb(0, 157, 255);
+}
