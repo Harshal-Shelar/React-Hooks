@@ -1,0 +1,114 @@
+.mainState{
+    margin: 2rem auto 4rem;
+    width: 400px;
+    align-items: center;
+    text-align: center;
+}
+.countMain{
+    text-align: center;
+}
+.countData{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.useStateHeading{
+    font-size: 40px;
+    text-align: center;
+}
+.incButton, .decButton{
+    padding: 0.3rem 3rem;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.incButton{
+    border : 2px solid rgb(0, 157, 255);
+    background-color: rgb(0, 157, 255);
+}
+.incButton:hover{
+    background-color: black;
+    color: rgb(0, 157, 255);
+    box-shadow: 0px 0px 10px 4px rgb(0, 157, 255);
+    transition: 0.5s;
+}
+.decButton{
+    border : 2px solid rgb(255, 47, 0);
+    background-color: rgb(255, 47, 0);
+}
+.decButton:hover{
+    background-color: black;
+    color: rgb(255, 47, 0);
+    box-shadow: 0px 0px 10px 4px rgb(255, 47, 0);
+    transition: 0.5s;
+}
+.countSpan{
+    font-size: 30px;
+}
+
+.formMain{
+    margin: 0 auto 4rem;
+    width: 400px;
+    padding: 0.2rem 2rem 2rem;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px 1px rgb(166, 166, 166);
+    background-color: rgb(27, 27, 27);
+}
+
+.registerHeading{
+    text-align: center;
+    color: rgb(0, 157, 255);
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 0px 2px 15px rgb(0, 157, 255);
+    letter-spacing: 2px;
+}
+.formLabel{
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 17px;
+    color: white;
+}
+.formInpField{
+    width: 97%;
+    margin: 0.4rem 0 0.9rem;
+    height: 2rem;
+    font-size: 14px;
+    padding-left: 0.5rem;
+    color: white;
+    background-color: gray;
+    border-radius: 0px;
+    
+}
+
+.registerButton{
+    text-align: right;
+    margin: 1rem 0 0;
+}
+
+.regBtn{
+    padding: 0.7rem 2rem;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    border : 2px solid rgb(0, 157, 255);
+    background-color: rgb(0, 157, 255);
+}
+.regBtn:hover{
+    background-color: black;
+    color: rgb(0, 157, 255);
+    box-shadow: 0px 0px 10px 4px rgb(0, 157, 255);
+    transition: 0.7s;
+    border : 2px solid black;
+}
+
+.formResult{
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
